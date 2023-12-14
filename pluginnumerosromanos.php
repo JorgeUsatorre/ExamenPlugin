@@ -14,7 +14,7 @@ Version: 0.0.1
 // Función que se ejecuta al cargar el plugin
 function iniciarplugin() {
     create_table();
-    insert_data();
+   - insert_data();
 }
 
 // Función que crea la tabla en la base de datos
