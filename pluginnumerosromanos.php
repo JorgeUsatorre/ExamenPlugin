@@ -43,7 +43,7 @@ function insert_data() {
         array('numero' => 7, 'numeroromano' => 'VII'),
         array('numero' => 8, 'numeroromano' => 'VIII'),
         array('numero' => 9, 'numeroromano' => 'IX'),
-        array('numero' => 10, 'roman_numeral' => 'X')
+
 
     );
 
@@ -71,5 +71,5 @@ function jorgeusatorre_numerosromanos_typo_fix($content) {
 }
 
 add_action('plugins_loaded', 'iniciarplugin');
-add_filter('the_content', 'roman_numerals_typo_fix');
-add_filter('the_title', 'roman_numerals_title_fix');
+add_filter('the_content', 'jorgeusatorre_numerosromanos_typo_fix');
+add_filter('the_title', 'jorgeusatorre_numerosromanos_typo_fix');
