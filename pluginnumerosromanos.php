@@ -1,10 +1,10 @@
 <?php
 /**
- * @package JorgeUsatorre Words
+ * @package JorgeUsatorre Numeros
  * @version 0.0.1
  */
 /*
-Plugin Name: JorgeUsatorre Words
+Plugin Name: JorgeUsatorre Numeros
 Plugin URI: http://wordpress.org/plugins/jorgeusatorre-words/
 Description: This plugin is a test for the WordPress plugin development course.
 Author: JorgeUsatorre
